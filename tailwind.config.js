@@ -22,6 +22,7 @@ module.exports = {
         "5rem": "5rem",
         "4rem": "4rem",
         "8rem": "8rem",
+        "50px": "50px",
       },
     },
   },
