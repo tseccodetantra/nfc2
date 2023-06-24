@@ -6,6 +6,7 @@ module.exports = {
       colors: {
         yellow: "#d4b201",
         bgBlack: "#000000e6",
+        nGray: "#3c3c3c7a",
       },
       fontFamily: {
         Roboto: ["Raleway", "sans-serif"],
@@ -17,6 +18,10 @@ module.exports = {
         "15rem": "15rem",
         "8rem": "8rem",
         "25px": "25px",
+        "15px": "15px",
+        "5rem": "5rem",
+        "4rem": "4rem",
+        "8rem": "8rem",
       },
     },
   },

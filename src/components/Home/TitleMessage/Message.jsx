@@ -3,7 +3,7 @@ import "./message.css";
 
 const Message = () => {
   return (
-    <div className="text-yellow flex flex-col items-center">
+    <div className="text-yellow flex flex-col items-center mt-10">
       <div className="codetantra">
         <p>
           <span className="text-white text-6xl">Code</span>
