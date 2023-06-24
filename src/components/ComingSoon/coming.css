@@ -1,0 +1,17 @@
+#one{
+    color: #fff;
+    font-size: 3em;
+    font-weight: 600;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    text-shadow: 0 0 10px #ff0000, 0 0 20px #ff0000,0 0 40px #ff0000,0 0 80px #ff0000,0 0 120px #ff0000;
+}
+
+#two{
+    color: #fff;
+    font-size: 3em;
+    font-weight: 600;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    text-shadow: 0 0 10px #0000ff, 0 0 20px #0000ff,0 0 40px #0000ff,0 0 80px #0000ff,0 0 120px #0000ff;
+}

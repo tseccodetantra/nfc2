@@ -1,24 +1,69 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Home from "./components/Home/Home";
+import React, { useState, useEffect } from "react";
+import LoadingScreen from "./components/Intro/loading.js";
+import ComingSoon from "./components/ComingSoon/ComingSoon";
 
 function App() {
+  const [loading, setLoading] = useState(true);
+  const [visited, setVisited] = useState(false);
+
+  // for local storage
+  // useEffect(() => {
+  //   const hasVisited = localStorage.getItem("visited");
+  //   if (hasVisited) {
+  //     setVisited(true);
+  //   } else {
+  //     setTimeout(() => {
+  //       setLoading(false);
+  //       setVisited(true);
+  //       localStorage.setItem("visited", "true");
+  //     }, 15000);
+  //   }
+  // }, []);
+
+  useEffect(() => {
+    setTimeout(() => setLoading(false), 21000);
+    //little less maybe
+  }, []);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <section className="wrapper">
+        <div id="stars"></div>
+        <div id="stars2"></div>
+        <div id="stars3"></div>
+      </section>
+
+      {/* for local storage */}
+      {/* {!visited ? (
+        <LoadingScreen />
+      ) : (
+        <>
+          <div>
+            <Home />
+          </div>
+          <div className="flex items-center justify-center mt-10 p-5">
+            <ComingSoon />
+          </div>
+        </>
+      )} */}
+
+      <div>
+        {loading === false ? (
+          <>
+            <div>
+              <Home />
+            </div>
+            <div className="flex items-center justify-center mt-10 p-5">
+              <ComingSoon />
+            </div>
+          </>
+        ) : (
+          <LoadingScreen />
+        )}
+      </div>
+    </>
   );
 }
 
