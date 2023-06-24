@@ -616,3 +616,9 @@
       transform: translateY(-2000px);
   }
 }
+
+@media (max-width: 640px) {
+  .main{
+    margin: 5rem;
+  }
+}

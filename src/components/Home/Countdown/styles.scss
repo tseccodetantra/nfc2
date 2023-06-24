@@ -38,3 +38,10 @@
     }
   }
 }
+
+@media (max-width: 640px) {
+  .counter{
+    display: flex;
+    flex-direction: column;
+  }
+}

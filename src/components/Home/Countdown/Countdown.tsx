@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { calculateTimeLeft } from "./utils.ts";
+import "../../../index.css";
 
 import "./styles.scss";
 import React from "react";
@@ -13,7 +14,7 @@ export const Countdown = () => {
 
   return (
     <div>
-      <div className="counter text-yellow">
+      <div className="counter text-yellow flex">
         <div className="counter-item">
           <span className="value">
             {String(timeLeft.days).padStart(2, "0")}

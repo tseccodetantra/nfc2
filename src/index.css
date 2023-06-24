@@ -24,3 +24,9 @@ code {
     monospace;
 }
 
+@media (max-width: 640px) {
+  #root{
+    overflow: scroll;
+    height: 101%;
+  }
+}

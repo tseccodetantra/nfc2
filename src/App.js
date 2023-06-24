@@ -49,7 +49,7 @@ function App() {
         </>
       )} */}
 
-      <div>
+      {/* <div>
         {loading === false ? (
           <>
             <div>
@@ -62,6 +62,14 @@ function App() {
         ) : (
           <LoadingScreen />
         )}
+      </div> */}
+      <div className="main">
+        <div>
+          <Home />
+        </div>
+        <div className="flex items-center justify-center mt-10 p-5">
+          <ComingSoon />
+        </div>
       </div>
     </>
   );
