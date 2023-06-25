@@ -19,21 +19,45 @@ const Domains = () => {
       <div className="flex flex-col items-center justify-center text-2xl">
         <div id="up" className="flex">
           <div className="flex flex-col justify-center items-center p-[5rem] domain-container">
-            <img src={web} width={200} height={200} className="invert"></img>
+            <img
+              src={web}
+              width={200}
+              height={200}
+              className="invert"
+              alt="Web/App"
+            ></img>
             <div className="mt-5">Web/App Development</div>
           </div>
           <div className="flex flex-col justify-center items-center p-[5rem] domain-container">
-            <img src={ai} width={200} height={200} className="invert"></img>
+            <img
+              src={ai}
+              width={200}
+              height={200}
+              className="invert"
+              alt="AI"
+            ></img>
             <div className="mt-5">AI / ML</div>
           </div>
         </div>
         <div id="down" className="flex">
           <div className="flex flex-col justify-center items-center p-[5rem] domain-container">
-            <img src={bc} width={200} height={200} className="invert"></img>
+            <img
+              src={bc}
+              width={200}
+              height={200}
+              className="invert"
+              alt="Blockchain"
+            ></img>
             <div className="mt-5">Blockchain</div>
           </div>
           <div className="flex flex-col justify-center items-center p-[5rem] domain-container">
-            <img src={social} width={200} height={200} className="invert"></img>
+            <img
+              src={social}
+              width={200}
+              height={200}
+              className="invert"
+              alt="Social"
+            ></img>
             <div className="mt-5">Social</div>
           </div>
         </div>

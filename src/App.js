@@ -1,17 +1,10 @@
 import "./App.css";
 import Home from "./components/Home/Home";
-import React, { useState, useEffect } from "react";
 import ComingSoon from "./components/ComingSoon/ComingSoon";
 import Domains from "./components/Domains/Domains";
+import NFC1 from "./components/NFC1/NFC1";
 
 function App() {
-  const [loading, setLoading] = useState(true);
-
-  useEffect(() => {
-    setTimeout(() => setLoading(false), 21000);
-    //little less maybe
-  }, []);
-
   return (
     <>
       <section className="wrapper">
@@ -29,6 +22,9 @@ function App() {
         </div>
         <div className="m-10">
           <Domains />
+        </div>
+        <div>
+          <NFC1 />
         </div>
       </div>
     </>

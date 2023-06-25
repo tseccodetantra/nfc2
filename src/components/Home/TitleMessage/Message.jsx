@@ -12,7 +12,13 @@ const Message = () => {
       </div>
       <br></br>
       <p className="mt-1"> PRESENTS </p>
-      <img id="logo" width={500} height={500} src={logo}></img>
+      <img
+        id="logo"
+        width={500}
+        height={500}
+        src={logo}
+        alt="NFC 2.0 Logo"
+      ></img>
     </div>
   );
 };
