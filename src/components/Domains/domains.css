@@ -17,3 +17,10 @@
     padding: 3rem;
   } */
 }
+
+@media (min-width: 1500px) {
+  #domain-cont{
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+}

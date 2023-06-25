@@ -6,7 +6,10 @@ import "./domains.css";
 
 const Domains = () => {
   return (
-    <div className="text-yellow mt-[10rem] bg-nGray rounded-[5rem]">
+    <div
+      className="text-yellow mt-[10rem] bg-nGray rounded-[5rem]"
+      id="domain-cont"
+    >
       <div
         id="domain-head"
         className="flex items-center justify-center text-6xl pt-[5rem]"
