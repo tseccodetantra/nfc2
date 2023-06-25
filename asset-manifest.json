@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/nfc2/static/css/main.728c4c5f.css",
-    "main.js": "/nfc2/static/js/main.2fd0fa6f.js",
+    "main.js": "/nfc2/static/js/main.3b833106.js",
     "static/js/787.bb0f4f62.chunk.js": "/nfc2/static/js/787.bb0f4f62.chunk.js",
-    "static/media/logo.png": "/nfc2/static/media/logo.e5adb00bd182b731eeb9.png",
     "static/media/winner.png": "/nfc2/static/media/winner.86bfa9a5a0cda1b0db40.png",
     "static/media/runner2.png": "/nfc2/static/media/runner2.655a2a56c870de9aa438.png",
     "static/media/runner1.png": "/nfc2/static/media/runner1.69b4b889376e3f7fdb22.png",
+    "static/media/logo.png": "/nfc2/static/media/logo.260f03d08f71e8fbd4ca.png",
     "static/media/bg.jpg": "/nfc2/static/media/bg.c5f26469faffc3d8b26d.jpg",
     "static/media/ai.png": "/nfc2/static/media/ai.14ba40281940917d11af.png",
     "static/media/social.png": "/nfc2/static/media/social.c69096e89c49a451e631.png",
     "static/media/blockchain.png": "/nfc2/static/media/blockchain.7b395b0e543bb196ff4b.png",
     "index.html": "/nfc2/index.html",
     "main.728c4c5f.css.map": "/nfc2/static/css/main.728c4c5f.css.map",
-    "main.2fd0fa6f.js.map": "/nfc2/static/js/main.2fd0fa6f.js.map",
+    "main.3b833106.js.map": "/nfc2/static/js/main.3b833106.js.map",
     "787.bb0f4f62.chunk.js.map": "/nfc2/static/js/787.bb0f4f62.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.728c4c5f.css",
-    "static/js/main.2fd0fa6f.js"
+    "static/js/main.3b833106.js"
   ]
 }
