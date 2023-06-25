@@ -1,6 +1,19 @@
 @media (max-width: 1000px) {
-  #up, #down{
+  /* #up, #down{
     display: flex;
     flex-direction: column;
   }
+
+  img{
+    width: 100px;
+    height: 100px;
+  } */
+
+  #domain-head{
+    font-size: 2.75rem;
+  }
+/* 
+  .domain-container{
+    padding: 3rem;
+  } */
 }
