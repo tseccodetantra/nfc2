@@ -1,6 +1,7 @@
 {
   "name": "nfc2.0_coming_soon",
   "version": "0.1.0",
+  "homepage": "https://tseccodetantra.github.io/nfc2",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
