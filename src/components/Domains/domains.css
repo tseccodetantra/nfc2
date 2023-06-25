@@ -1,9 +1,6 @@
 @media (max-width: 1000px) {
-  #domain-items {
+  #up, #down{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width:80%;
   }
 }
