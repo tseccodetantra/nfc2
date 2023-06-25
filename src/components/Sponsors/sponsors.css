@@ -1,0 +1,31 @@
+#top-s div {
+  padding: 20px;
+}
+
+#bottom-s div{
+    padding: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+#bottom-s{
+    margin-top: 50px;
+}
+
+@media (max-width: 600px) {
+    #top-s{
+        flex-direction: column;
+    }
+    #bottom-s{
+        flex-direction: column;
+        margin-top: -10px;
+    }
+    #top-s div{
+        /* padding-top: 50px; */
+        padding-bottom: 50px;
+    }
+    #spons-cont{
+        margin-left: 5vw;
+        margin-right: 5vw;
+    }
+}
