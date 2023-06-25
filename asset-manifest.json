@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/tsecodetantra.github.io/nfc2/static/css/main.c6b311db.css",
-    "main.js": "/tsecodetantra.github.io/nfc2/static/js/main.8e32aac9.js",
-    "static/js/787.bb0f4f62.chunk.js": "/tsecodetantra.github.io/nfc2/static/js/787.bb0f4f62.chunk.js",
-    "static/media/logo.png": "/tsecodetantra.github.io/nfc2/static/media/logo.e5adb00bd182b731eeb9.png",
-    "static/media/winner.png": "/tsecodetantra.github.io/nfc2/static/media/winner.86bfa9a5a0cda1b0db40.png",
-    "static/media/runner2.png": "/tsecodetantra.github.io/nfc2/static/media/runner2.655a2a56c870de9aa438.png",
-    "static/media/runner1.png": "/tsecodetantra.github.io/nfc2/static/media/runner1.69b4b889376e3f7fdb22.png",
-    "static/media/bg.jpg": "/tsecodetantra.github.io/nfc2/static/media/bg.c5f26469faffc3d8b26d.jpg",
-    "static/media/ai.png": "/tsecodetantra.github.io/nfc2/static/media/ai.14ba40281940917d11af.png",
-    "static/media/social.png": "/tsecodetantra.github.io/nfc2/static/media/social.c69096e89c49a451e631.png",
-    "static/media/blockchain.png": "/tsecodetantra.github.io/nfc2/static/media/blockchain.7b395b0e543bb196ff4b.png",
-    "index.html": "/tsecodetantra.github.io/nfc2/index.html",
-    "main.c6b311db.css.map": "/tsecodetantra.github.io/nfc2/static/css/main.c6b311db.css.map",
-    "main.8e32aac9.js.map": "/tsecodetantra.github.io/nfc2/static/js/main.8e32aac9.js.map",
-    "787.bb0f4f62.chunk.js.map": "/tsecodetantra.github.io/nfc2/static/js/787.bb0f4f62.chunk.js.map"
+    "main.css": "/nfc2/static/css/main.728c4c5f.css",
+    "main.js": "/nfc2/static/js/main.2fd0fa6f.js",
+    "static/js/787.bb0f4f62.chunk.js": "/nfc2/static/js/787.bb0f4f62.chunk.js",
+    "static/media/logo.png": "/nfc2/static/media/logo.e5adb00bd182b731eeb9.png",
+    "static/media/winner.png": "/nfc2/static/media/winner.86bfa9a5a0cda1b0db40.png",
+    "static/media/runner2.png": "/nfc2/static/media/runner2.655a2a56c870de9aa438.png",
+    "static/media/runner1.png": "/nfc2/static/media/runner1.69b4b889376e3f7fdb22.png",
+    "static/media/bg.jpg": "/nfc2/static/media/bg.c5f26469faffc3d8b26d.jpg",
+    "static/media/ai.png": "/nfc2/static/media/ai.14ba40281940917d11af.png",
+    "static/media/social.png": "/nfc2/static/media/social.c69096e89c49a451e631.png",
+    "static/media/blockchain.png": "/nfc2/static/media/blockchain.7b395b0e543bb196ff4b.png",
+    "index.html": "/nfc2/index.html",
+    "main.728c4c5f.css.map": "/nfc2/static/css/main.728c4c5f.css.map",
+    "main.2fd0fa6f.js.map": "/nfc2/static/js/main.2fd0fa6f.js.map",
+    "787.bb0f4f62.chunk.js.map": "/nfc2/static/js/787.bb0f4f62.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c6b311db.css",
-    "static/js/main.8e32aac9.js"
+    "static/css/main.728c4c5f.css",
+    "static/js/main.2fd0fa6f.js"
   ]
 }
